@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/personal_information"
+            android:textAlignment="center"
+            android:textColor="#1530C3"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/fname"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name_eg_john"
+            android:inputType="textPersonName" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/email_address"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_email_eg_john_gmail_com"
+            android:inputType="textEmailAddress" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/phone_number"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:hint="@string/enter_your_number_eg_35424515"
+            android:inputType="phone" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/date_of_birth"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name_eg_2021_05_22"
+            android:inputType="date" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/gender"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name_eg_male" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/country"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name_eg_uk"
+            android:inputType="text" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/city"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name_eg_street_27" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/natonality"
+            android:textSize="30sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_your_name_eg_british"
+            android:inputType="text" />
+
+
+        <TextView
+            android:id="@+id/text_edu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/education"
+            android:textAlignment="center"
+            android:textColor="#1530C3"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/text_edu0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/course_degree"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_your_course_or_degree"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/text_edu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/school_university"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_your_school_university_level"
+            android:inputType="textMultiLine" />
+
+
+        <TextView
+            android:id="@+id/text_edu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/grade_score"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_your_grade_score"
+            android:inputType="textMultiLine" />
+
+
+        <TextView
+            android:id="@+id/skill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expertise"
+            android:textAlignment="center"
+            android:textColor="#1530C3"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/skill1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/skills"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/enter_your_skills"
+            android:inputType="textMultiLine" />
+
+        <!-- activities -->
+
+        <TextView
+            android:id="@+id/exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/experience"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/exp1"
+            android:inputType="textMultiLine" />
+
+
+        <TextView
+            android:id="@+id/exp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/experience2"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/exp1"
+            android:inputType="textMultiLine" />
+
+
+        <!-- activities -->
+
+        <TextView
+            android:id="@+id/acti1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activities"
+            android:textAlignment="center"
+            android:textColor="#1530C3"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/acti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hobby"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/activitiess"
+            android:inputType="textMultiLine" />
+
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create"
+            android:textColor="#FA1B0B" />
+
+
+    </LinearLayout>
+</ScrollView>

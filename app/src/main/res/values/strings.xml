@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CV Maker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Cv Maker</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_logout">Logout</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="fname">Full Name</string>
+    <string name="enter_your_name_eg_john">Enter your name eg: john</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_your_email_eg_john_gmail_com">Enter your email eg:john@gmail.com</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_your_number_eg_35424515">Enter your number eg:35424515</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="enter_your_name_eg_2021_05_22">Enter your name eg:2021/05/22</string>
+    <string name="gender">Gender</string>
+    <string name="enter_your_name_eg_male">Enter your name eg:Male</string>
+    <string name="country">Country</string>
+    <string name="enter_your_name_eg_uk">Enter your name eg:UK</string>
+    <string name="city">City</string>
+    <string name="enter_your_name_eg_street_27">Enter your name eg:Street,27</string>
+    <string name="natonality">Natonality</string>
+    <string name="enter_your_name_eg_british">Enter your name eg:British</string>
+    <string name="education">Education</string>
+    <string name="enter_your_education_level">Enter your Education level</string>
+    <string name="enter_your_school_university_level">Enter your school/university level</string>
+    <string name="school_university">School/University</string>
+    <string name="enter_your_grade_score">Enter your Grade/Score</string>
+    <string name="grade_score">Grade/Score</string>
+    <string name="course_degree">Course/Degree</string>
+    <string name="enter_your_course_or_degree">Enter your course or degree</string>
+    <string name="skills">Skills</string>
+    <string name="enter_your_skills">enter your skills</string>
+    <string name="expertise">Expertise</string>
+    <string name="experience">Experience</string>
+    <string name="enter_your_experience">enter your experience</string>
+    <string name="exp1">DATES FROM – TO
+        JOB TITLE, COMPANY
+        Describe your responsibilities and achievements but keep it short.</string>
+    <string name="experience2">Experience2</string>
+
+    <string name="activitiess">passion_activities_and_importants_events</string>
+    <string name="hobby">Hobby</string>
+    <string name="activities">Activities</string>
+    <string name="create">Create</string>
+</resources>
